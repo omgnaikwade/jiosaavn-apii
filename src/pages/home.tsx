@@ -34,26 +34,11 @@ Home.get('/', (c) => {
         <meta charset="utf-8" />
         <meta name="description" content={description} />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://saavn.dev/" />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://saavn.dev/" />
         <meta property="twitter:title" content={title} />
         <meta property="twitter:description" content={description} />
-        <meta
-          property="og:image"
-          content="https://raw.githubusercontent.com/sumitkolhe/jiosaavn-api/main/assets/preview.jpg"
-        />
-        <meta
-          property="twitter:image"
-          content="https://raw.githubusercontent.com/sumitkolhe/jiosaavn-api/main/assets/preview.jpg"
-        />
-        <link
-          rel="icon"
-          type="image/x-icon"
-          href="https://raw.githubusercontent.com/sumitkolhe/jiosaavn-api/main/assets/favicon.ico"
-        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
@@ -105,11 +90,11 @@ Home.get('/', (c) => {
               />
             </svg>
             <p class="text-2xl md:text-4xl text-transparent font-bold leading-none bg-clip-text bg-gradient-to-r from-[#ff7d78] to-purple-600">
-              JioSaavn API
-              <span class="uppercase text-sm ml-3 text-gray-500 font-normal sm:hidden">Unofficial</span>
+              VYBE API
+              <span class="uppercase text-sm ml-3 text-gray-500 font-normal sm:hidden">Music Streaming</span>
             </p>
             <p class="hidden sm:block animate-[borderAnimation_3s_linear_infinite] rounded bg-gradient-to-r from-red-500 via-purple-500 to-blue-500 bg-[length:400%_400%] p-1">
-              <span class="block rounded px-1.5 py-0.5 text-xs text-white uppercase tracking-wider">Unofficial</span>
+              <span class="block rounded px-1.5 py-0.5 text-xs text-white uppercase tracking-wider">Music Streaming</span>
             </p>
           </div>
 
@@ -125,79 +110,35 @@ Home.get('/', (c) => {
                 </span>
                 <span class="text-neutral-200 font-bold text-lg sm:text-xl md:text-2xl mt-2">Explore the Docs</span>
                 <div class="text-neutral-500 mt-2">
-                  Check out the documentation to learn how to use the JioSaavn API.
+                  Check out the documentation to learn how to use the VYBE API.
                 </div>
               </div>
             </a>
 
             <a
               target="_blank"
-              class="p-4 sm:p-8 hover:bg-opacity-5 hover:bg-white rounded-lg duration-100 sm:col-span-4"
-              href="https://github.com/sumikolhe/jiosaavn-api"
+              class="p-4 sm:p-8 hover:bg-opacity-5 hover:bg-white rounded-lg duration-100 sm:col-span-8"
+              href="https://t.me/VyomaOfficial"
             >
               <div class="flex flex-col">
-                <span class="text-xs uppercase bg-opacity-15 rounded text-center max-w-fit px-2 py-1 font-bold tracking-wide bg-green-500 text-green-500">
-                  Open Source
+                <span class="text-xs uppercase bg-opacity-15 rounded text-center max-w-fit px-2 py-1 font-bold tracking-wide bg-sky-500 text-sky-500">
+                  Join Us
                 </span>
-                <span class="text-neutral-200 font-bold text-lg sm:text-xl md:text-2xl mt-2">Open Source</span>
-                <div class="text-neutral-500 mt-2">Saavn API is open-source. Check out the source code on github.</div>
-              </div>
-            </a>
-
-            <a
-              target="_blank"
-              class="p-4 sm:p-8 hover:bg-opacity-5 hover:bg-white rounded-lg duration-100 sm:col-span-4"
-              href="https://github.com/suitkolhe/jiosaavn-api/issues"
-            >
-              <div class="flex flex-col">
-                <span class="text-xs uppercase bg-opacity-15 rounded text-center max-w-fit px-2 py-1 font-bold tracking-wide bg-violet-500 text-violet-500">
-                  Contribute
-                </span>
-                <span class="text-neutral-200 font-bold text-lg sm:text-xl md:text-2xl mt-2">Get Involved</span>
+                <span class="text-neutral-200 font-bold text-lg sm:text-xl md:text-2xl mt-2">Telegram Channel</span>
                 <div class="text-neutral-500 mt-2">
-                  Encounter a bug or have a feature suggestion? Report it on GitHub or contribute by submitting a pull
-                  request.
-                </div>
-              </div>
-            </a>
-
-            <div class="p-4 sm:p-8 hover:bg-opacity-5 hover:bg-white rounded-lg duration-100 sm:col-span-4">
-              <div class="flex flex-col">
-                <span class="text-xs uppercase bg-opacity-15 rounded text-center max-w-fit px-2 py-1 font-bold tracking-wide bg-blue-500 text-blue-500">
-                  Contact
-                </span>
-                <span class="text-neutral-200 font-bold text-lg sm:text-xl md:text-2xl mt-2">Sumit Kolhe</span>
-                <div class="text-neutral-500 mt-2">
-                  Have a question or need help? Reach out on{' '}
-                  <a
-                    href="https://t.me/VyomaOfficial"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:underline text-indigo-500"
-                  >
-                    GitHub
-                  </a>
-                  ,{' '}
+                  Updates, support, and announcements - join our{' '}
                   <a
                     href="https://t.me/VyomaOfficial"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:underline text-sky-500"
                   >
-                    Twitter
+                    Telegram channel
                   </a>
-                  , or{' '}
-                  <a
-                    href="https://t.me/VyomaOfficial"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="hover:underline text-pink-500"
-                  >
-                    Telegram.
-                  </a>
+                  .
                 </div>
               </div>
-            </div>
+            </a>
           </div>
         </main>
       </body>
